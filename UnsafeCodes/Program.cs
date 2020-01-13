@@ -5,7 +5,7 @@ namespace UnsafeCodes
     //The statements marked as unsafe by using the keyword unsafe runs outside the control of Garbage Collector
     class Program
     {
-        // Unsafe keyword can be used as a modifier to a method, property, and constructor etc
+        // Unsafe keyword can be used as a modifier to a class, method, property, and constructor etc
         public unsafe static void UnsafeMethod()
         {
             int x = 10;
